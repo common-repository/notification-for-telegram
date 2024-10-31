@@ -1,0 +1,225 @@
+.nav-tab {
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-left: .5em;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-weight: 600;
+    background: #2196F3;
+  
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.gopro{
+  border:2px solid #FF0000 !important;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 49px;
+  height: 28px;
+  margin-right: 15px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+.telegram_notify_div  {
+   
+    width:90%;
+     margin-left: 10px;
+    
+}
+#bordersection  {
+ 
+ border-top: 2px dashed #2196F3;
+
+}
+
+.bannerfoto {
+   
+   height:150px; /* you can use % */
+   width : auto;
+}
+
+
+.respo {
+   display:inline-block;
+  
+
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  
+}
+
+
+
+.h3, h3 {
+    font-size: 16px;
+}
+
+.h2, h2 {
+	margin-top: 15px;
+   font-size: 18px !important;
+   text-align: center;
+}
+
+
+.button {
+ 
+}
+
+
+input[type=text],  textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+.buttonTest, .buttoncronset, .buttoncront, .button-primary {
+  transition-duration: 0.4s;
+   background-color: #2196F3 !important;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.buttonTest:hover {
+  background-color: #2196F3; /* Green */
+  color: white;
+}
+
+.rigaplug {
+
+ 
+}
+
+
+.box {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+  display: inline-block;
+ float: left;
+  min-width: 200px;
+ 
+}
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+display: none;
+}
+
+.box:after {
+  content: '<>';
+  font: 15px "Consolas", monospace;
+  color: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 11px;
+  /*Adjust for position however you want*/
+  
+  top: 18px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid #999;
+  /*left line */
+  
+  position: absolute;
+  pointer-events: none;
+}
+
+.box select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  height: 45px;
+  float: right;
+  margin: 0px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
+}
